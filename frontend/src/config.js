@@ -1,4 +1,4 @@
 const config = {
-  BACKEND_HOST: "https://retoolapi.dev/BMso9F/data",
+  BACKEND_HOST: "http://localhost:5002/movie",
 };
 module.exports = config;

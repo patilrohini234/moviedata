@@ -10,7 +10,7 @@ const Movies = () => {
   }, []);
   const fetchData = async () => {
     const { data } = await axios.get(`${config.BACKEND_HOST}`);
-    setMovies(data);
+    setMovies(data.data);
   };
   return (
     <main>
